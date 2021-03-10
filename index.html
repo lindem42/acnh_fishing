@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:bold" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+
+<!-- css -->
+<link href="fish-simulation.css" rel="stylesheet" type="text/css">
+
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type="text/css">
+
+<title>animal crossing fish simulation</title>
+
+</head>
+
+<body>
+
+	<div class="topbar">india lindeman: computational modeling final</div>
+
+	<div class="total-cont">
+
+		<div class="half-cont">
+
+			<div class="cont-header">original data collected from game</div>
+
+
+			<div class="table-cont">
+				<div class="data-cont">
+					<div class="subheader">table 01: sorted by prevalence</div>
+					<table id="fish-map-sorted-table">
+						<tr><td>fish</td><td>count</td><td>percent</td></tr>
+					</table>
+				</div>
+				<div class="data-cont">
+					<div class="subheader">table 02: sorted alphabetically</div>
+					<table id="fish-map-table">
+						<tr><td>fish</td><td>count</td><td>percent</td></tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div class="half-cont">
+
+			<div class="cont-header">simultation</div>
+
+			<div class="table-cont" id="simulation-data">
+		</div>
+
+		<button onclick="runSimulation()">run simulation</button>
+	</div>
+
+	<script type="text/javascript" src="fish-simulation.js"></script>
+</body>
+</html>
